@@ -1,0 +1,38 @@
+.chessboard
+{
+	display: grid;
+	grid-template-columns: 30px repeat(8,80px) 30px;
+	grid-template-rows: 30px repeat(8,80px) 30px;
+	text-align: center;
+}
+
+.second {
+	grid-column-start: 2;
+}
+
+.first{
+	grid-column-start: 1;
+}
+
+.title{
+	align-self: center;
+	font-size: 20px;
+}
+
+.rot{
+	transform: rotate(180deg);
+}
+
+.cell{
+	outline: 1px solid gray;
+	line-height: 80px;
+	font-size: 80px;
+}
+
+.white{
+	background-color: white;
+}
+
+.black{
+	background-color: gray;
+}
