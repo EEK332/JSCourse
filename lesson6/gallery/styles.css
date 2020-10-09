@@ -1,0 +1,20 @@
+body{
+	    text-align: -webkit-center
+}
+
+.preview{
+	width: 1532px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 0 0 350px;
+}
+
+.bigImg{
+	margin-top: 20px;
+}
+
+.preview img:hover{
+	outline: solid 3px gold;
+	cursor: pointer;
+}
